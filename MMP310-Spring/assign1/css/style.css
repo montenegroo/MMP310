@@ -1,0 +1,48 @@
+body{
+ margin:  0 auto;
+}
+
+header{
+ height: 170px;
+ width: 650px;
+ background-color: black;
+ background-image: url(../img/logo.png);
+ background-repeat: no-repeat;
+ background-position: center;
+ margin: 22px auto;
+}
+div{
+    margin: 0 auto;
+    width: 648px;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+}
+main{
+ width: 400px;
+ float: left;
+ margin: 0 0 0 10px;
+}
+main a{
+ color: darkkhaki;
+}
+main h1{
+ color: cadetblue;
+ font-weight: normal;
+}
+aside{
+ width: 200px;   
+ float: left;
+ margin: 21px 0 0 27px;
+}
+aside p{
+ font-style: italic;   
+}
+footer{
+clear: both;   
+  padding: 0 20px;
+  margin: 28.8px auto 0;
+  width: 608px;
+  color: black;
+font-size: 12px;
+}

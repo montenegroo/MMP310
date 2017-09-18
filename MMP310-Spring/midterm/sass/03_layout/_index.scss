@@ -1,0 +1,12 @@
+//
+// Layout
+//
+// Larger layout items, such as, <header>, <main>, and <footer> elements, are styled
+// here and are typically altered via selector modifiers (classes, IDs, attribute
+// selectors, etc).
+//
+
+@import 'header';
+@import 'footer';
+@import 'nav';
+@import 'main';

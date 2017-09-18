@@ -1,0 +1,14 @@
+body {
+   font-family: 'Open Sans', sans-serif;
+   margin-bottom: 2.5 * $grid--leading;
+}
+
+a {
+   text-decoration: none;
+   color: $background-color--header;
+}
+
+h1 {
+   text-align: center;
+   font-size: 2rem;
+}

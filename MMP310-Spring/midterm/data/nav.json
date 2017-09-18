@@ -1,0 +1,84 @@
+headerNav({
+  "items":[
+    {
+      "label":"Work",
+      "url":"#/work",
+      "items":[]
+    },
+    {
+      "label":"Careers",
+      "url":"#/careers",
+      "items":[
+        {
+          "label":"Client Services",
+          "url":"#/careers/client-services"
+        },
+        {
+          "label":"Creative",
+          "url":"#/careers/creative"
+        },
+        {
+          "label":"Motion &amp; Media",
+          "url":"#/careers/motion-and-media"
+        },
+        {
+          "label":"Operations",
+          "url":"#/careers/operations"
+        },
+        {
+          "label":"People",
+          "url":"#/careers/people"
+        },
+        {
+          "label":"Strategy",
+          "url":"#/careers/strategy"
+        },
+        {
+          "label":"Technology",
+          "url":"#/careers/technology"
+        },
+        {
+          "label":"UX &amp; Product Design",
+          "url":"#/careers/ux-and-product-design"
+        }
+      ]
+    },
+    {
+      "label":"Events",
+      "url":"#/events",
+      "items":[]
+    },
+    {
+      "label":"About",
+      "url":"#/about",
+      "items":[
+        {
+          "label":"What we do",
+          "url":"#/about/what-we-do"
+        },
+        {
+          "label":"How we work",
+          "url":"#/about/how-we-work"
+        },
+        {
+          "label":"Leadership",
+          "url":"#/about/leadership"
+        }
+      ]
+    },
+    {
+      "label":"Contact",
+      "url":"#/contact",
+      "items":[
+        {
+          "label":"Email",
+          "url":"#/contact/email"
+        },
+        {
+          "label":"Social Media",
+          "url":"#/contact/social-media"
+        }
+      ]
+    }
+  ]
+});

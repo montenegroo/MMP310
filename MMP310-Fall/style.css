@@ -1,0 +1,67 @@
+body{
+    background-image: url(images/bkg.jpg);
+ background-size:  cover;
+ background-repeat: no-repeat;
+font-family: helvetica, arial, sans-serif;
+line-height: 1.45;
+font-size: 20px;
+    
+    overflow: hidden;
+}
+#wrapper{
+ background-color: rgba(0,0,0,0.3);
+ height: 200px;
+    width: 1024px;
+ margin: auto;
+    
+}
+
+header{
+    background-color: bisque;
+    
+}
+nav{
+ text-align: center;
+ background-color: beige;
+ margin-top: -30px;
+ font-family: monospace;
+}
+h1{
+ text-align: center;
+ color: crimson;
+ font-weight: normal;
+}
+p{
+ color: crimson;
+ text-indent: 10px;
+    
+}
+a{
+ color: darkred;
+}
+a:hover{
+ background-color: darkslategray;  
+ color: firebrick;
+}
+img{
+ margin-top: 165px;    
+ width:1024px;   
+}
+ul{
+ list-style: none;
+ padding: 0;
+}
+ul li{
+ display: inline-block;
+    margin-right: 1em;
+}
+ul li ul{
+ display: none;
+}
+ul li:hover ul{
+    display: inline-block;
+}
+article{
+ background-color: aliceblue;
+ margin: 20px;
+}

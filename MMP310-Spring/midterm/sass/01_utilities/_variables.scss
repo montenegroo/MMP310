@@ -1,0 +1,55 @@
+// ----------------------------------------------------------------------------------
+// Colors
+// ----------------------------------------------------------------------------------
+$background-color--header           : #ec008c;
+$background-color--second-nav-hover : #eee;
+$color--body                        : #fff;
+
+// ----------------------------------------------------------------------------------
+// Font Sizes
+// ----------------------------------------------------------------------------------
+$font-size--base         : 16px;                      // 16px
+$font-size--primary-nav  : 1.3125 * $font-size--base; // 21px
+$font-size--second-nav   : $font-size--base;          // 16px
+$font-size--body-desktop : 1.5 * $font-size--base;    // 24px
+
+// ----------------------------------------------------------------------------------
+// Leading
+// ----------------------------------------------------------------------------------
+$leading--solid        : $font-size--base;       // 16px
+$leading--primary-nav  : 3 * $leading--solid;    // 48px
+$leading--second-nav   : 3 * $leading--solid;    // 48px
+$leading--body-desktop : 2.25 * $leading--solid; // 36px
+
+// ----------------------------------------------------------------------------------
+// Font Stacks
+// ----------------------------------------------------------------------------------
+$font-stack--primary-nav  : #{$font-size--primary-nav} / #{$leading--primary-nav}
+                            'Open Sans', sans-serif;
+$font-stack--second-nav   : #{$font-size--second-nav} / #{$leading--second-nav}
+                            'Open Sans', sans-serif;
+$font-stack--body-desktop : #{$font-size--body-desktop} / #{$leading--body-desktop}
+                            'Open Sans', sans-serif;
+
+// ----------------------------------------------------------------------------------
+// Grid
+// ----------------------------------------------------------------------------------
+$grid--column                   : 48px;                   // 48px
+$grid--full-gutter              : $grid--column / 3;      // 16px
+$grid--split-gutter             : $grid--full-gutter / 2; // 8px
+$grid--leading                  : 1.5 * $leading--solid;  // 24px
+
+// ----------------------------------------------------------------------------------
+// Content Margins
+// ----------------------------------------------------------------------------------
+$margin--content: $grid--full-gutter + $grid--split-gutter; // 24px
+
+// ----------------------------------------------------------------------------------
+// Header
+// ----------------------------------------------------------------------------------
+$height--header: 3 * $grid--leading; // 72px
+
+// ----------------------------------------------------------------------------------
+// Stacking Contexts (z-index)
+// ----------------------------------------------------------------------------------
+$stacking-context--nav : 1;
