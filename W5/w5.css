@@ -1,0 +1,88 @@
+body{
+ margin:  0 auto;
+}
+
+header{
+ height: 170px;
+ width: 650px;
+
+ margin: 22px auto;
+}
+div{
+    margin: 0 auto;
+    width: 648px;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+}
+main{
+ width: 400px;
+ float: left;
+ margin: 0 0 0 10px;
+}
+#wrapper a{
+ color: darkkhaki;
+}
+main h1{
+ color: cadetblue;
+ font-weight: normal;
+}
+aside{
+ width: 200px;   
+ float: left;
+ margin: 21px 0 0 27px;
+}
+aside p{
+ font-style: italic;   
+}
+footer{
+clear: both;   
+  padding: 0 20px;
+  margin: 28.8px auto 0;
+  width: 608px;
+  color: black;
+font-size: 12px;
+}
+body {
+background-color:#f2f2f2;
+color:#3D2910;
+font-family:monospace;
+letter-spacing: 0.05em;
+font-size: 1.2em;
+font-weight: bold;
+padding-left: 4.7%;
+padding-right: 2.35%;
+
+}
+
+h1{
+	font-size:2em;
+	font-weight: bolder;
+	letter-spacing: 0.08em;
+	font-family: sans-serif;
+}
+
+input{ 
+	margin: 2%;
+	height: 5em;
+
+}
+#answer{
+	position: absolute;
+	margin:4em 2em;
+	border-radius: 50%;
+	width: 7em;
+	height: 7em;
+	background-color: #3D2910;
+
+}
+#number{
+	position: absolute;
+	font-size: 2.5em;
+	color:#f2f2f2;
+	left: 1.2em;
+}
+
+#response{
+	color: brown;
+}
