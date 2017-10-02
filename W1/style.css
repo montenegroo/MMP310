@@ -1,5 +1,6 @@
 body{
  margin:  0 auto;
+background-image: url(images/bkg.jpg);
 }
 
 header{
@@ -7,6 +8,11 @@ header{
  width: 650px;
 
  margin: 22px auto;
+}
+#wrapper{
+    background-color: rgba(255,255,255,.9);
+    width: 965px;
+    color: black;
 }
 div{
     margin: 0 auto;
