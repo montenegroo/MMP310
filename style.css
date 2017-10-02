@@ -1,70 +1,96 @@
 body{
-    height: 1000px;
+ margin:  0 auto;
 background-image: url(images/bkg.jpg);
- background-size:  cover;
- background-repeat: no-repeat;
-font-family: helvetica, arial, sans-serif;
-line-height: 1.45;
-font-size: 20px;
-overflow: hidden;
-}
-#wrapper{
- background-color: rgba(0,0,0,0.3);
- height: 500px;
-width: 1024px;
- margin: auto;
-    background-color:darkgoldenrod
 }
 
 header{
-    background-color: bisque;
-    
+ height: 170px;
+ width: 650px;
+
+ margin: 22px auto;
 }
-nav{
- text-align: center;
- background-color: beige;
- margin-top: -30px;
- font-family: monospace;
+#wrapper{
+    background-color: rgba(255,255,255,.9);
+    width: 965px;
 }
-h1,h2{
- text-align: center;
- color: crimson;
+div{
+    margin: 0 auto;
+    width: 648px;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+}
+main{
+ width: 400px;
+ float: left;
+ margin: 0 0 0 10px;
+}
+#wrapper a{
+ color: darkkhaki;
+}
+main h1{
+ color: cadetblue;
  font-weight: normal;
 }
-p{
- color: black;
- text-indent: 10px;
-    font-size: 26px;
-    
+aside{
+ width: 200px;   
+ float: left;
+ margin: 21px 0 0 27px;
 }
-a{
- color: darkred;
+aside p{
+ font-style: italic;   
 }
-a:hover{
- background-color: darkslategray;  
- color: firebrick;
+footer{
+clear: both;   
+  padding: 0 20px;
+  margin: 28.8px auto 0;
+  width: 608px;
+  color: black;
+font-size: 12px;
 }
-img{
- margin-top: 165px;    
- width:1024px;   
+body {
+background-color:#f2f2f2;
+color:#3D2910;
+font-family:monospace;
+letter-spacing: 0.05em;
+font-size: 1.2em;
+font-weight: bold;
+padding-left: 4.7%;
+padding-right: 2.35%;
+
 }
-ul{
- list-style: none;
- padding: 0;
+
+h1{
+	font-size:2em;
+	font-weight: bolder;
+	letter-spacing: 0.08em;
+	font-family: sans-serif;
 }
-ul li{
- display: inline-block;
-    margin-right: 1em;
+
+input{ 
+	margin: 2%;
+	height: 5em;
+
 }
-ul li ul{
- display: none;
+#answer{
+	position: absolute;
+	margin:4em 2em;
+	border-radius: 50%;
+	width: 7em;
+	height: 7em;
+	background-color: #3D2910;
+
 }
-/*
-ul li:hover ul{
-    display: inline-block;
+#number{
+	position: absolute;
+	font-size: 2.5em;
+	color:#f2f2f2;
+	left: 1.2em;
 }
-*/
-article{
- background-color: aliceblue;
- margin: 20px;
+
+#response{
+	color: brown;
+}
+span{
+ background-color: crimson;   
 }
