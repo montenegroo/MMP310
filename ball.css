@@ -1,0 +1,35 @@
+header,nav,body{
+ background-color: black;
+ color: white
+}
+#wrapper{
+ background-color: purple;
+ width: 700px;
+    margin: auto;
+}
+.question{
+    text-align: center;
+    margin-left: 250;
+ font-size: 50px;
+}
+#ball{
+    width: 600px;
+    height: 600px;
+ border: 10px black solid;
+ border-radius: 500px;
+    background-color: black;
+}
+
+#message {
+    display: inline-block;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    width: auto;
+    height: auto;
+    background-color: plum;
+    border-radius: 100px;
+    margin-top: 235px;
+    margin-left: 235px;
+    padding: 5px;
+}
