@@ -1,11 +1,17 @@
-header,nav,body{
- background-color: black;
- color: white
+body{
+    
+}
+header,nav{
+ background-color: azure;
+ color: black; 
+ width: 700px;
+margin: auto;
 }
 #wrapper{
  background-color: purple;
  width: 700px;
-    margin: auto;
+ margin: auto;
+ 
 }
 .question{
     text-align: center;
