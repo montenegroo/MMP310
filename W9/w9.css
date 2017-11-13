@@ -1,0 +1,124 @@
+body{
+ margin:  0 auto;
+}
+
+header{
+ height: 170px;
+ width: 650px;
+
+ margin: 22px auto;
+}
+div{
+    padding: 10px;
+    margin: 0 auto;
+    width: 964px;
+    
+}
+#wrapper{
+ padding: 10px;   
+}
+#wrapper a{
+ color: darkkhaki;
+}
+main h1{
+ color: cadetblue;
+ font-weight: normal;
+}
+img{
+ width: 950px;   
+}
+aside{
+ width: 200px;   
+ float: left;
+ margin: 21px 0 0 27px;
+}
+aside p{
+ font-style: italic;   
+}
+footer{
+clear: both;   
+  padding: 0 20px;
+  margin: 28.8px auto 0;
+  width: 608px;
+  color: black;
+font-size: 12px;
+}
+body {
+background-color:#f2f2f2;
+color:#3D2910;
+font-family:monospace;
+letter-spacing: 0.05em;
+font-size: 1.2em;
+font-weight: bold;
+padding-left: 4.7%;
+padding-right: 2.35%;
+
+}
+
+h1{
+	font-size:2em;
+	font-weight: bolder;
+	letter-spacing: 0.08em;
+	font-family: sans-serif;
+}
+
+input{ 
+	margin: 2%;
+	height: 5em;
+
+}
+#answer{
+	position: absolute;
+	margin:4em 2em;
+	border-radius: 50%;
+	width: 7em;
+	height: 7em;
+	background-color: #3D2910;
+
+}
+#number{
+	position: absolute;
+	font-size: 2.5em;
+	color:#f2f2f2;
+	left: 1.2em;
+}
+
+#response{
+	color: brown;
+}
+span{
+ background-color: crimson;   
+}
+#game {
+	width: 800px;
+	margin:0 auto;
+}
+
+.card {
+	width:200px;
+	height:200px;
+	display:inline-block;
+	background: crimson;
+	margin: 10px;
+	box-sizing: border-box;
+}
+
+.card img {
+	width:100%;
+	height:100%;
+}
+.flipfront {
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    box-shadow: -1px 1px 3px 1px #ccc;
+}
+
+.flipback {
+    transform: rotateY(0deg);
+    -webkit-transform: rotateY(0deg);
+}
+
+.front {
+    transform: rotateY(-180deg);
+    -webkit-transform: rotateY(-180deg);
+}
