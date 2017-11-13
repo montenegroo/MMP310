@@ -50,34 +50,17 @@ $(document).ready(function() {
 								allMatch = false;
 							}
 						}
-                        var score = 0;
-                		var attempt = 0;
-                        
 						if (allMatch) {
 							// match, stay face up
 							console.log("this is a match");
-                          
 							// if all matches game is won
-                            score++;
-                            $('#score').text('You Got :' + score 'right')
-                            
-                            if  (score == cards.length/2){
-                                $('#score').text('Congrationgulations! You Won!!!')
-                            }
-                            
-                            
 						} else {
 							// not a match, hide the images
 							$card.children().delay(1000).hide(0);
 							for (let i = 0; i < clickedCards.length; i++) {
 								clickedCards[i].img.delay(1000).hide(0);
 							}
-                            attempt++;
-                            $('#attempt').text('Number of tries ' + attempt)
-                            
 						}
-                       
-                        
 						// clear the current image
 						clickedCards = [];
 					} else {
@@ -87,10 +70,10 @@ $(document).ready(function() {
 							img: $card.find('img')
 						});
 					}
-                
 				});
 					
 			});
 		}
 	});
+    
 });
