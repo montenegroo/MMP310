@@ -6,7 +6,7 @@
 body {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
   text-align: center;
-  background-color: white;
+  background-color: #051900;
 }
 
 h2 {
@@ -20,24 +20,23 @@ h2 {
   width: 5em;
 }
 
-/*******************************************************************************
- *  Main Content
- ******************************************************************************/
-
-#content {
+.game-container {
   vertical-align: top;
   text-align: center;
   display: inline-block;
 }
 
-#left {
+#table {
     display: inline-block;
     margin-top: 2em;
+    float: right;
+    width: 600px;
+  
 }
 
-#right {
-  margin-top: 12em;
-  display: inline-block;
+#action-area {
+    float:right;
+  display: block;
   vertical-align: top;
 }
 
