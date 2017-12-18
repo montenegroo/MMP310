@@ -52,7 +52,7 @@ function BlackJackDeck() {
   /*  DEAL  */
   this.draw = function( numberOfCards ) {
     var req = new XMLHttpRequest();
-    req.open('GET', API_URL + this.id + '/draw/?count=' + numberOfCards, false);
+    req.open('GET', url + this.id + '/draw/?count=' + numberOfCards, false);
     req.send(null);
     var response = JSON.parse(req.responseText);
     if ( response.success == true ) {
@@ -67,7 +67,7 @@ function BlackJackDeck() {
   /*  SHUFFLE  */
   this.shuffle = function() {
     var req = new XMLHttpRequest();
-    req.open('GET', API_URL + this.id + '/shuffle', true);
+    req.open('GET', url + this.id + '/shuffle', true);
     req.addEventListener('load', function(){
       var response = JSON.parse(req.responseText);
       if ( response.success == false ) {
