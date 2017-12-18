@@ -1,0 +1,145 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  text-align: center;
+  background-color: white;
+}
+
+h2 {
+  margin: 0 auto 30px;
+  padding: 10px;
+  background-color: white;
+  color: #222222;
+  border-style: solid;
+  border-width: thin;
+  border-radius: 20px;
+  width: 5em;
+}
+
+/*******************************************************************************
+ *  Main Content
+ ******************************************************************************/
+
+#content {
+  vertical-align: top;
+  text-align: center;
+  display: inline-block;
+}
+
+#left {
+    display: inline-block;
+    margin-top: 2em;
+}
+
+#right {
+  margin-top: 12em;
+  display: inline-block;
+  vertical-align: top;
+}
+
+/*******************************************************************************
+ *  Game Area
+ ******************************************************************************/
+
+#gameArea {
+  margin: auto;
+  display: inline-block;
+}
+
+#dealerSection, #userSection {
+  border-style: dotted;
+  border-width: thin;
+  border-radius: 50px;
+}
+
+#dealerSection {
+  width: 600px;
+  height: 300px;
+  display: block;
+  margin: 0 auto;
+  background-color: #afafaf;
+  color: #FFF;
+  padding-top: 20px;
+}
+
+#userSection {
+  width: 600px;
+  height: 300px;
+  display: block;
+  margin: 1em auto;
+  background-color: #2b2b2b;
+  color: #FFF;
+  padding-top: 20px;
+}
+
+#dealerCards, #userCards {
+  height: 139px;
+}
+
+.score {
+  margin: 10px 0 0 5px;
+}
+
+.result {
+  margin: 10px 0 0 5px;
+  font-weight: bold;
+  color: red;
+}
+
+/*******************************************************************************
+ *  Control Area
+ ******************************************************************************/
+
+#controls {
+  background-color: black;
+  margin: 0;
+  padding: 2em;
+  border-style: dotted;
+  border-width: thin;
+  border-radius: 50px;
+}
+
+#buttonsContainer {
+  display: inline-block;
+}
+
+button {
+  width: 100px;
+  height: 40px;
+  margin: 2em auto 2em;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: medium;
+  border-color: darkred;
+  background-color: white;
+  display: block;
+}
+
+button:disabled {
+  background-color: lightgrey;
+  border-style: none;
+}
+
+#roundResultContainer {
+  border-style: dotted;
+  border-width: thin;
+  border-radius: 50px;
+  width: 15em;
+  height: 3em;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+}
+
+#roundResult {
+  font-size: x-large;
+  color: darkred;
+  text-align: center;
+  align-self: center;
+}

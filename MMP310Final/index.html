@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='UTF-8'>
+    <link rel='stylesheet' type='text/css' href='style.css'>
+    <title>How To</title>
+  </head>
+  <body>
+    <div id='content'>
+      <div id='left'>
+        <div id='gameArea'>
+          <div id='dealerSection'>
+            <h2>Dealer</h2>
+              <div id='dealerCards'></div>
+              <div id='dealerScoreContainer' class='score'>
+                <span>Dealer Score: </span><span id='dealerScore'></span>
+                  <span id='dealerResult' class='result'></span>
+              </div>
+          </div>
+          <div id='userSection'>
+            <h2>Player</h2>
+              <div id='userCards'></div>
+              <div id='userScoreContainer' class='score'>
+                <span>Player Score: </span><span id='userScore'></span>
+                  <span id='userResult' class='result'></span>
+              </div>
+          </div>
+        </div>
+      </div>
+
+      <div id='right'>
+        <div id='controls'>
+          <div id='buttonsContainer'>
+            <button id='deal'>Deal</button>
+            <button id='hit'>Hit</button>
+            <button id='stay'>Stay</button>
+            <button id='reset'>Again</button>
+          </div>
+          <div id='roundResultContainer'>
+            <span id='roundResult'></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src='app2.js'></script>
+</html>
